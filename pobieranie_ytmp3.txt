@@ -1,5 +1,0 @@
-py -m pip install -U yt-dlp
-
-yt-dlp --extract-audio --audio-format mp3 --download-sections "*00:00-00:30" -o "yt_audio.%(ext)s" "https://www.youtube.com/watch?v=fbL5BWWOTgA"
-
-yt-dlp --extract-audio --audio-format mp3 --download-sections "*00:00-05:00" -o "yt_audio.%(ext)s" "https://www.youtube.com/watch?v=fbL5BWWOTgA"
